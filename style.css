@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    border: 1px solid violet;
+}
+.container .word {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .word input{
+    width: 70%;
+    padding: 15px;
+    border: 0;
+    border-bottom:1px solid black ;
+    font-size: 18px;
+    outline: none;
+}
+.container .word button{
+    width: 20%;
+    padding:10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background: violet;
+    border: 0;
+    color: aliceblue;
+    font-size: 18px;    
+}
+.container .meaning{
+    margin:20px;
+}
+.container .meaning .definition{
+    margin: 30px 0;
+    line-height: 35px;
+}
+.container .meaning .definition span{
+     color: #777;
+     margin: 20px 0;
+     letter-spacing: 1px;
+}
+.container .meaning .example{
+   padding: 0 20px;
+   border-left: 4px solid violet;
+}
+h1{
+    margin: 25px 0;
+}
